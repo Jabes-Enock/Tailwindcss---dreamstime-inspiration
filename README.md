@@ -4,4 +4,4 @@
 
 2 - A partir disso foi desenvolvido algo semelhante usando o tailwind css, a intenção foi verificar a praticidade que o framework oferece.
  
-3 - Foi explorado os principais recursos de resonsividade do tailwindcss por meio dos recursos de breakpoints: sm,md e lg.
+3 - Foi explorado os principais recursos de resonsividade do tailwindcss por meio dos breakpoints: sm,md e lg.
