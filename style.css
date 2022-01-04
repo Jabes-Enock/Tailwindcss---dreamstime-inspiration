@@ -16,9 +16,21 @@
   position: relative;
   display: block;
   width: calc(182% + 1.3px);
-  height: 110px;
+  height: 200px;
 }
 
 .custom-shape-divider-bottom-1641262677 .shape-fill {
   fill: #5d6674;
+}
+
+.foguete {
+  fill: white;
+  stroke: rgb(182, 179, 179);
+  stroke-width: 0.1;
+}
+
+.circle-white {
+  fill: white;
+  stroke: white;
+  stroke-width: 1;
 }
