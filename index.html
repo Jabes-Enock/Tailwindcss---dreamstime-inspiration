@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="tailwind.css" />
+    <title>Template padrão Tailwindcss</title>
+  </head>
+  <body>
+    <div
+      class="relative max-w-screen min-h-screen bg-gradient-to-r from-gray-500 via-gray-700 to-gray-900 pb-40"
+    >
+      <header class="p-4">
+        <div class="flex justify-between md:justify-around items-center">
+          <div
+            class="flex space-x-2 text-white cursor-pointer hover:text-indigo-500"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="h-6 w-6 ml-4 md:ml-0"
+              viewBox="0 0 20 20"
+              fill="currentColor"
+            >
+              <path
+                d="M10.894 2.553a1 1 0 00-1.788 0l-7 14a1 1 0 001.169 1.409l5-1.429A1 1 0 009 15.571V11a1 1 0 112 0v4.571a1 1 0 00.725.962l5 1.428a1 1 0 001.17-1.408l-7-14z"
+              />
+            </svg>
+            <p>My Logo</p>
+          </div>
+
+          <nav class="max-w-full hidden md:flex">
+            <ul class="flex text-center space-x-10 ml-3">
+              <li
+                class="text-white text-lg py-3 cursor-pointer hover:text-indigo-500"
+              >
+                Team
+              </li>
+              <li
+                class="text-white text-lg py-3 cursor-pointer hover:text-indigo-500"
+              >
+                service
+              </li>
+              <li
+                class="text-white text-lg py-3 cursor-pointer hover:text-indigo-500"
+              >
+                Pricing
+              </li>
+              <li
+                class="text-white text-lg py-3 cursor-pointer hover:text-indigo-500"
+              >
+                About
+              </li>
+              <li
+                class="text-white text-lg py-3 cursor-pointer hover:text-indigo-500"
+              >
+                Contact
+              </li>
+              <div></div>
+            </ul>
+          </nav>
+
+          <button
+            class="bg-white text-indigo-500 rounded-full px-6 py-1 hover:text-white hover:bg-indigo-500"
+          >
+            Try for free
+          </button>
+          <svg
+            id="menu-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            class="h-5 w-5 md:hidden text-white cursor-pointer hover:text-indigo-500"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+              clip-rule="evenodd"
+            />
+          </svg>
+        </div>
+      </header>
+      <!--This wil be show only on mobile -->
+      <nav id="nav-menu-icon" class="w-full hidden md:hidden absolute top-20">
+        <ul
+          class="flex flex-col text-center bg-gradient-to-r from-white to-gray-300"
+        >
+          <li
+            class="cursor-pointer text-gray-500 text-lg py-3 hover:bg-gray-500 hover:text-white"
+          >
+            Team
+          </li>
+          <li
+            class="cursor-pointer text-gray-500 text-lg py-3 hover:bg-gray-500 hover:text-white"
+          >
+            service
+          </li>
+          <li
+            class="cursor-pointer text-gray-500 text-lg py-3 hover:bg-gray-500 hover:text-white"
+          >
+            Pricing
+          </li>
+          <li
+            class="cursor-pointer text-gray-500 text-lg py-3 hover:bg-gray-500 hover:text-white"
+          >
+            About
+          </li>
+          <li
+            class="cursor-pointer text-gray-500 text-lg py-3 hover:bg-gray-500 hover:text-white"
+          >
+            Contact
+          </li>
+          <div></div>
+        </ul>
+      </nav>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 place-items-center">
+        <img
+          src="/foguete.png.png"
+          alt="foguete"
+          class="w-60 sm:w-72 lg:w-96 bg-auto bg-no-repeat bg-center object-cover mt-8 lg:order-2"
+        />
+        <div class="grid lg:order-1 place-items-left p-6 ml-10">
+          <h1 class="text-2xl md:text-4xl mb-6 lg:mt-10 text-white">
+            Get Your Business <br />Growing
+          </h1>
+          <p
+            class="text-sm sm:text-lg text-justify text-white pl-1 lg:mt-2 lg:pr-20"
+          >
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Placeat
+            odit nesciunt neque. Hic, beatae nisi, veniam, error facere sit ex
+            enim dolorem consectetur dolor id unde voluptas veritatis illum
+            saepe!
+          </p>
+          <button
+            class="w-40 bg-gradient-to-r from-purple-500 to-purple-900 rounded-full px-6 py-2 lg:mt-20 mt-8 text-white hover:bg-gradient-to-r hover:from-purple-900 hover:to-purple-500"
+          >
+            Try for free
+          </button>
+        </div>
+      </div>
+      <div class="custom-shape-divider-bottom-1641262677">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+            opacity=".25"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+            opacity=".5"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
