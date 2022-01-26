@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="tailwind.css" />
-    <title>Template padrão Tailwindcss</title>
+    <title>Template Padrão Tailwindcss</title>
   </head>
   <body>
     <div
@@ -84,32 +84,35 @@
         </div>
       </header>
       <!--This wil be show only on mobile -->
-      <nav id="nav-menu-icon" class="w-full hidden md:hidden fixed top-16 z-20">
+      <nav
+        id="nav-menu-icon"
+        class="w-screen hidden md:hidden fixed top-16 bottom-0 z-20 overflow-y-scroll"
+      >
         <ul
-          class="flex flex-col text-center bg-gradient-to-r from-white to-gray-300"
+          class="grid min-h-screen text-center bg-gradient-to-r from-white to-gray-300 pt-3 gap-6"
         >
           <li
-            class="cursor-pointer text-gray-500 text-lg py-3 hover:bg-gray-500 hover:text-white"
+            class="cursor-pointer text-gray-500 text-3xl py-3 hover:bg-gray-500 hover:text-white"
           >
             Team
           </li>
           <li
-            class="cursor-pointer text-gray-500 text-lg py-3 hover:bg-gray-500 hover:text-white"
+            class="cursor-pointer text-gray-500 text-3xl py-3 hover:bg-gray-500 hover:text-white"
           >
             service
           </li>
           <li
-            class="cursor-pointer text-gray-500 text-lg py-3 hover:bg-gray-500 hover:text-white"
+            class="cursor-pointer text-gray-500 text-3xl py-3 hover:bg-gray-500 hover:text-white"
           >
             Pricing
           </li>
           <li
-            class="cursor-pointer text-gray-500 text-lg py-3 hover:bg-gray-500 hover:text-white"
+            class="cursor-pointer text-gray-500 text-3xl py-3 hover:bg-gray-500 hover:text-white"
           >
             About
           </li>
           <li
-            class="cursor-pointer text-gray-500 text-lg py-3 hover:bg-gray-500 hover:text-white"
+            class="cursor-pointer text-gray-500 text-3xl py-3 hover:bg-gray-500 hover:text-white"
           >
             Contact
           </li>
