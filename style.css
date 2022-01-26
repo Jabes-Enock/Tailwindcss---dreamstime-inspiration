@@ -4,7 +4,7 @@
 
 .custom-shape-divider-bottom-1641262677 {
   position: absolute;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
   width: 100%;
   overflow: hidden;
@@ -20,7 +20,8 @@
 }
 
 .custom-shape-divider-bottom-1641262677 .shape-fill {
-  fill: #5d6674;
+  /*  fill: #5d6674; */
+  fill: white;
 }
 
 .foguete {
