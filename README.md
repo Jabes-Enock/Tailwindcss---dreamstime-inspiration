@@ -1,4 +1,4 @@
-# Tailwindcss---dreamstime-inspiration
+# Tailwindcss - Landing Page
 
   A landing page website template was used as a starting point (dreamstime). 
 
@@ -8,6 +8,6 @@
 
 You can see this application running below.
 
-<img src="https://github.com/Jabes-Enock/Tailwindcss---dreamstime-inspiration/Dreamstime inspiration.gif">
+<img src="https://github.com/Jabes-Enock/Tailwindcss---dreamstime-inspiration/blob/master/Dreamstime%20inspiration.gif">
 
 Made by Jabes Enock.
