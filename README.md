@@ -1,7 +1,13 @@
 # Tailwindcss---dreamstime-inspiration
 
-1 - Foi usado um template de um site de landing pages como ponto de partida (dreamstime). 
+  A landing page website template was used as a starting point (dreamstime). 
 
-2 - A partir disso foi desenvolvido algo semelhante usando o tailwind css, a intenção foi verificar a praticidade que o framework oferece.
+ From that, something similar was developed using tailwindcss, the intention was to verify the practicality that the framework offers.
  
-3 - Foi explorado os principais recursos de resonsividade do tailwindcss por meio dos breakpoints: sm,md e lg.
+ The main responsiveness features of tailwindcss were explored through the breakpoints: sm, md and lg
+
+You can see this application running below.
+
+<img src="https://github.com/Jabes-Enock/Tailwindcss---dreamstime-inspiration/Dreamstime inspiration.gif">
+
+Made by Jabes Enock.
