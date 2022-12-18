@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* 
+===================
+Custom css
+=================== 
+*/
+
+.custom-shape-divider-bottom-1641262677 {
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1641262677 svg {
+  position: relative;
+  display: block;
+  width: calc(182% + 1.3px);
+  height: 200px;
+}
+
+.custom-shape-divider-bottom-1641262677 .shape-fill {
+  /*  fill: #5d6674; */
+  fill: white;
+}
+
+.foguete {
+  fill: white;
+  stroke: rgb(182, 179, 179);
+  stroke-width: 0.1;
+}
+
+.circle-white {
+  fill: white;
+  stroke: white;
+  stroke-width: 1;
+}
