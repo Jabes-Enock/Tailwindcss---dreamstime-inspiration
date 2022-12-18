@@ -28,7 +28,7 @@ A landing page website template was used as a starting point, from that, somethi
 <div id="live-demo">
 
 You can see the project running at the link below.
-### :camera: [LIVE DEMO](https://course-page-tailwindcss.vercel.app/) :video_camera:
+### :camera: [LIVE DEMO](https://up-your-business.netlify.app/) :video_camera:
 </div>
 </br>
 
